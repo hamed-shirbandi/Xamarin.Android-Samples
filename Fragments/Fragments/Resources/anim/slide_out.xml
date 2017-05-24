@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:interpolator="@android:interpolator/anticipate">
+
+	<translate
+		android:fromXDelta="0"
+		android:toXDelta="100%"
+		android:duration="650"/>
+
+	<alpha
+		android:fromAlpha="1.0"
+		android:toAlpha="0.5"
+		android:duration="650"/>
+</set>
+

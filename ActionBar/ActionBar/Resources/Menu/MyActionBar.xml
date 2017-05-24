@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+  <item android:id="@+id/cut"
+    android:icon="@drawable/cut"
+    android:title="Add New"
+    android:showAsAction="always"/>
+  
+  <item android:id="@+id/addnew"
+    android:icon="@drawable/AddNew"
+    android:title="Add New"
+    android:showAsAction="always">
+    <menu>
+      <item android:id="@+id/cut"
+        android:icon="@drawable/cut"
+        android:title="Add New"/>
+
+      <item android:id="@+id/cut"
+        android:icon="@drawable/cut"
+        android:title="item 1"/>
+
+      <item android:id="@+id/cut"
+        android:icon="@drawable/cut"
+        android:title="item 2"/>
+
+      <item android:id="@+id/cut"
+        android:icon="@drawable/cut"
+        android:title="item 3"/>
+
+      <item android:id="@+id/cut2"
+        android:icon="@drawable/cut"
+        android:title="item 4">
+        <menu>
+          <item android:id="@+id/cut2"
+            android:icon="@drawable/cut"
+            android:title="item 4 sub item 1"/>
+
+
+          <item android:id="@+id/cut2"
+            android:icon="@drawable/cut"
+            android:title="item 4 sub item 2"/>
+
+
+          <item android:id="@+id/cut2"
+            android:icon="@drawable/cut"
+            android:title="item 4 sub item 3"/>
+        </menu>
+
+      </item>
+    </menu>
+  </item>
+  
+  
+</menu>

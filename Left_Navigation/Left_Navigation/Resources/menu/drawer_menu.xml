@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_gravity="right">
+  <group android:checkableBehavior="single">
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_calendar" android:title="menu 1" />
+    <item android:id="@+id/nav_messages" android:icon="@drawable/ic_facebook" android:title="menu 2" />
+    <item android:id="@+id/nav_friends" android:icon="@drawable/ic_Message" android:title="menu 3" />
+    <item android:id="@+id/nav_discussion" android:icon="@drawable/ic_Trash" android:title="menu 4" />
+  </group>
+  <item android:title="other app sub menus">
+    <menu>
+      <item android:icon="@drawable/ic_twitter" android:title="sub menu 1" />
+      <item android:icon="@drawable/ic_user_male" android:title="sub menu 2" />
+      <item android:icon="@drawable/ic_action_content_save" android:title="sub menu 3" />
+    </menu>
+  </item>
+</menu>

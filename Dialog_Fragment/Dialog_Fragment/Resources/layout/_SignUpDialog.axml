@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="300dp"
+    android:minHeight="400dp"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    
+    <EditText
+        android:id="@+id/txt_email"
+        android:hint="ایمیل خود را وارد کنید"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txt_name"
+        android:hint="نام خود را وارد کنید"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txt_pass"
+        android:hint="رمز عبور خود را وارد کنید"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txt_confirm_pass"
+        android:hint="تکرار رمز عبور خود را وارد کنید"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_marginTop="10dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/btn_cancel"
+        android:background="@color/light_red"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=" انصراف"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btn_register"
+        android:background="@color/light_green"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ثبت نام"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_margin="10dp" />
+
+  </LinearLayout>
+</LinearLayout>

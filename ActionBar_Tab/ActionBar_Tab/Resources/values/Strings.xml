@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">ActionBar_Tab</string>
+  <string name="Tab1">tab 1</string>
+  <string name="Tab2">tab 2</string>
+  <string name="Tab3">tab 3</string>
+  <string name="Tab4">tab 4</string>
+</resources>

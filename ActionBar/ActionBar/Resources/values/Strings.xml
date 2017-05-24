@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">ActionBar</string>
+  <string name="Custom_ActionBar_Name">My Action Bar</string>
+  
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">سیستم عضویت کاربران</string>
+  <string name="txt_confirm_pass_error">تکرار رمز عبور را وارد کنید</string>
+  <string name="txt_pass_error">رمز عبور را وارد کنید</string>
+  <string name="txt_email_error">ایمیل را وارد کنید</string>
+  <string name="txt_name_error">نام را وارد کنید</string>
+  <string name="txt_pass_not_confirm_error">رمز و تکرار آن یکسان نیستند</string>
+  <string name="pass_or_email_invalid">ایمیل یا رمز عبور اشتباه بود</string>
+</resources>

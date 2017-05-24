@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="dialog_animation">
+    <item name="android:windowEnterAnimation">@anim/slide_up</item>
+    <item name="android:windowExitAnimation">@anim/slide_down</item>
+  </style>
+  <style name="Theme.Coustom.Material.Light" parent="android:style/Theme.Material.Light">
+    <item name="android:colorPrimary">@color/light_blue</item>
+    <item name="android:colorPrimaryDark">@color/dark_red</item>
+    <item name="android:textColorPrimary">@color/black</item>
+    <item name="android:colorAccent">@color/light_red</item>
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:statusBarColor">@color/light_red</item>
+    <item name="android:navigationBarColor">@color/light_green</item>
+  </style>
+</resources>

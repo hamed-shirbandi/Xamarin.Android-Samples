@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:local="http://schemas.android.com/apk/res-auto">
+  <item
+     android:id="@+id/action_content_create"
+     android:icon="@drawable/ic_action_content_create"
+     local:showAsAction="always"
+     android:title="ic_action_content_create" />
+  <item
+     android:id="@+id/action_content_save"
+     android:icon="@drawable/ic_action_content_save"
+     local:showAsAction="always"
+     android:title="ic_action_content_save" />
+  <item
+     android:id="@+id/calendar"
+     android:icon="@drawable/ic_calendar"
+     local:showAsAction="always"
+     android:title="ic_calendar" />
+  <item
+     android:id="@+id/Trash"
+     android:icon="@drawable/ic_Trash"
+     local:showAsAction="always"
+     android:title="ic_Trash" />
+  <item
+     android:id="@+id/Message"
+     android:icon="@drawable/ic_Message"
+     local:showAsAction="always"
+     android:title="ic_Message" />
+  <item
+     android:id="@+id/twitter"
+     android:icon="@drawable/ic_twitter"
+     local:showAsAction="always"
+     android:title="twitter" />
+  <item
+     android:id="@+id/user_male"
+     android:icon="@drawable/ic_user_male"
+     local:showAsAction="always"
+     android:title="ic_user_male" />
+</menu>
+

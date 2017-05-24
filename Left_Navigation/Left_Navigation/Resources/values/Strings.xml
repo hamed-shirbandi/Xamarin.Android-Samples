@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Drawer_Layout</string>
+  <string name="drawer_open">drawer open</string>
+  <string name="drawer_close">drawer close</string>
+</resources>

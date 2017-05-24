@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="300dp"
+    android:minHeight="400dp"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ایجاد یک حساب کاربری"
+            android:gravity="center"
+            android:layout_marginTop="30dp" />
+        <ImageView
+            android:src="@drawable/mainlogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:id="@+id/btn_show_login_dialog"
+            android:background="@color/light_green"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ورود به برنامه"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/btn_show_signup_dialog"
+            android:background="@color/light_blue"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ثبت نام با ایمیل"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+</LinearLayout>
